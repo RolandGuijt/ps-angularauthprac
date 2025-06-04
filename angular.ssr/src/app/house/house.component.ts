@@ -1,7 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { HouseService } from '../../services/house.service';
-import { Observable } from 'rxjs';
-import { House } from '../../types/house';
+import {House} from '../types/house';
+import {HouseService} from '../Services/house.service';
 
 @Component({
   selector: 'app-house',

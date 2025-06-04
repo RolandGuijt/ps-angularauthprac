@@ -47,26 +47,10 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-app.UseDefaultFiles();
-app.UseStaticFiles();
-
-// Configure the HTTP request pipeline.
-
-app.UseHttpsRedirection();
-app.UseAuthentication();
 app.UseBff();
-app.UseAuthorization();
 app.MapBffManagementEndpoints();
-
-// Comment this out to use the external api
-app.MapGroup("/todos")
-    .ToDoGroup()
-    .RequireAuthorization()
-    .AsBffApiEndpoint();
-
-// Comment this in to use the external api
-//app.MapRemoteBffApiEndpoint("/todos", "https://localhost:7001/todos")
-//    .RequireAccessToken(Duende.Bff.TokenType.User);
+app.MapRemoteBffApiEndpoint("/api", "https://localhost:7165")
+    .RequireAccessToken();
 
 app.MapFallbackToFile("/index.html");
 

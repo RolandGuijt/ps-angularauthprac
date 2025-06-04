@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+.themeFontColor {
+  color: coral;
+}
+
+tr {
+  cursor: pointer;
+}
+
+.logo {
+  height: 150px;
+}
+
+.subtitleStyle {
+  font-style: "italic";
+  font-size: "x-large";
+  color: "coral";
+}
