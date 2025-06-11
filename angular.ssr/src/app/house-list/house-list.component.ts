@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { CommonModule } from '@angular/common';
+
 import {House} from '../types/house';
 import {HouseService} from '../Services/house.service';
 
 @Component({
   selector: 'app-house-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './house-list.component.html',
   styleUrl: './house-list.component.css',
 })

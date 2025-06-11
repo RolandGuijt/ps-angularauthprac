@@ -10,13 +10,15 @@
         <th>Asking Price</th>
       </tr>
     </thead>
-    <tbody *ngFor="let house of houses">
-      <tr (click)="navigateToHouse(house.id)">
-        <td>{{ house.address }}</td>
-        <td>{{ house.country }}</td>
-        <td>{{ house.price }}</td>
-      </tr>
-    </tbody>
+    @for (house of houses; track house) {
+      <tbody>
+        <tr (click)="navigateToHouse(house.id)">
+          <td>{{ house.address }}</td>
+          <td>{{ house.country }}</td>
+          <td>{{ house.price }}</td>
+        </tr>
+      </tbody>
+    }
   </table>
   <button class="btn btn-primary" (click)="addHouse()">Add</button>
 </div>

@@ -9,26 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c714444-3f1f-4214-a44e-3c3931067975" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Angular/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Angular/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular.Api/ToDoEndpointGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.Api/HousesEndpointGroup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular.Bff/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.Bff/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular.Bff/ToDoEndpointGroup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/HousesGroup.cs" beforeDir="false" />
+    <list default="true" id="9c714444-3f1f-4214-a44e-3c3931067975" name="Changes" comment="Proxy fix">
+      <change beforePath="$PROJECT_DIR$/angular.ssr/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular.ssr/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular.ssr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/proxy.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/proxy.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/Services/house.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/Services/house.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/app.routes.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/app.routes.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/GloboLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/GloboLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/houseImages/164558.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/houseImages/164558.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/houseImages/259600.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/houseImages/259600.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/houseImages/277667.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/houseImages/277667.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/houseImages/462358.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/houseImages/462358.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/houseImages/534182.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/houseImages/534182.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/app.config.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/app.config.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/house-list/house-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/house-list/house-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/house-list/house-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/house-list/house-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,8 +145,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749646813639</updated>
-      <workItem from="1749646816827" duration="1193000" />
+      <workItem from="1749646816827" duration="1792000" />
     </task>
+    <task id="LOCAL-00001" summary="Proxy fix">
+      <option name="closed" value="true" />
+      <created>1749648108398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749648108398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,9 +164,14 @@
       <list>
         <option value="$PROJECT_DIR$/angular.ssr/node_modules/piscina/test/fixtures/notify-then-sleep-or.js" />
         <option value="$PROJECT_DIR$/angular.ssr/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/angular.ssr/node_modules/piscina/test/fixtures/wait-for-notify.js" />
       </list>
     </option>
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Proxy fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy fix" />
+  </component>
 </project>
