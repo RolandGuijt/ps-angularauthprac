@@ -10,10 +10,10 @@ export class HouseService {
   constructor(private http: HttpClient) {}
 
   getHouses(): Observable<House[]> {
-    return this.http.get<House[]>('/api/houses');
+    return this.http.get<House[]>('api/houses');
   }
 
   getHouse(id: number): Observable<House> {
-    return this.http.get<House>(`/api/houses/${id}`);
+    return this.http.get<House>(`api/houses/${id}`);
   }
 }

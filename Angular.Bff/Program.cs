@@ -1,7 +1,6 @@
 // Copyright (c) Duende Software. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
-using Angular.Bff;
 using Duende.Bff.Yarp;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -49,7 +48,7 @@ var app = builder.Build();
 
 app.UseBff();
 app.MapBffManagementEndpoints();
-app.MapRemoteBffApiEndpoint("/api", "https://localhost:7165")
+app.MapRemoteBffApiEndpoint("/api", "https://localhost:7001")
     .RequireAccessToken();
 
 app.MapFallbackToFile("/index.html");

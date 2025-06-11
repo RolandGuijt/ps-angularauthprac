@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular.Api", "Angular.Api\
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angular.ssr", "angular.ssr\angular.ssr.esproj", "{35304CB0-32D6-4275-9333-D5FA0D4F1D0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globomantics.Api", "Api\Globomantics.Api.csproj", "{EEB230EE-3681-4DAF-ADDA-D58C9872B7C9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{35304CB0-32D6-4275-9333-D5FA0D4F1D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35304CB0-32D6-4275-9333-D5FA0D4F1D0C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{35304CB0-32D6-4275-9333-D5FA0D4F1D0C}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{EEB230EE-3681-4DAF-ADDA-D58C9872B7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EEB230EE-3681-4DAF-ADDA-D58C9872B7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EEB230EE-3681-4DAF-ADDA-D58C9872B7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EEB230EE-3681-4DAF-ADDA-D58C9872B7C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

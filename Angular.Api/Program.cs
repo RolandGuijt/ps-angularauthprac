@@ -1,6 +1,3 @@
-// Copyright (c) Duende Software. All rights reserved.
-// Licensed under the MIT License. See LICENSE in the project root for license information.
-
 using Angular.Api;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -31,8 +28,8 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
-app.MapGroup("/todos")
-    .ToDoGroup()
+app.MapGroup("/houses")
+    .HousesGroup()
     .RequireAuthorization("ApiCaller", "InteractiveUser");
 
 

@@ -5,34 +5,85 @@
     <projectFile profileName="https">Angular.Bff/Angular.Bff.csproj</projectFile>
     <projectFile kind="EcmaScript">angular.ssr/angular.ssr.esproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e93dfb-79f1-4531-aa0b-e977ca71ddd7" name="Changes" comment="" />
+    <list default="true" id="9c714444-3f1f-4214-a44e-3c3931067975" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Angular/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Angular/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.Api/ToDoEndpointGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.Api/HousesEndpointGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.Bff/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.Bff/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.Bff/ToDoEndpointGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/HousesGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/proxy.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/proxy.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/Services/house.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/Services/house.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/app.routes.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/app.routes.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/GloboLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/GloboLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/houseImages/164558.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/houseImages/164558.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/houseImages/259600.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/houseImages/259600.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/houseImages/277667.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/houseImages/277667.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/houseImages/462358.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/houseImages/462358.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/assets/houseImages/534182.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/public/assets/houseImages/534182.jpeg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RolandGuijt&quot;
+  }
 }</component>
-  <component name="ProjectId" id="2y2RT1VsnVvIDxDsoWMRCVZNB3v" />
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RolandGuijt/ps-angularauthprac.git&quot;,
+    &quot;accountId&quot;: &quot;2f314c12-66e5-4e71-ae60-7d7c57b25556&quot;
+  }
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2yMaHc8Y8x2oQx5S8cUkWMMpnLT" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\rolan\\source\\repos\\ps-pracangularauth\\angular.ssr\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Angular.Api: https.executor": "Run",
+    ".NET Launch Settings Profile.Angular.Bff: https.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\rolan\\source\\repos\\ps-pracangularauth\\angular.ssr\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Angular.Bff: https">
+}]]></component>
+  <component name="RunManager" selected="Multi-Launch.Multi-Launch: Angular">
     <configuration name="Angular.Api: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Angular.Api/Angular.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -63,6 +114,35 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Multi-Launch: Angular" type="com.intellij.execution.configurations.multilaunch" factoryName="MultiLaunchConfiguration">
+      <rows>
+        <ExecutableRowSnapshot>
+          <option name="condition">
+            <ConditionSnapshot>
+              <option name="type" value="immediately" />
+            </ConditionSnapshot>
+          </option>
+          <option name="executable">
+            <ExecutableSnapshot>
+              <option name="id" value="runConfig:.NET Launch Settings Profile.Angular.Api: https" />
+            </ExecutableSnapshot>
+          </option>
+        </ExecutableRowSnapshot>
+        <ExecutableRowSnapshot>
+          <option name="condition">
+            <ConditionSnapshot>
+              <option name="type" value="immediately" />
+            </ConditionSnapshot>
+          </option>
+          <option name="executable">
+            <ExecutableSnapshot>
+              <option name="id" value="runConfig:.NET Launch Settings Profile.Angular.Bff: https" />
+            </ExecutableSnapshot>
+          </option>
+        </ExecutableRowSnapshot>
+      </rows>
+      <method v="2" />
+    </configuration>
     <configuration name="angular.ssr: start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/angular.ssr/package.json" />
       <command value="start" />
@@ -73,38 +153,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="95e93dfb-79f1-4531-aa0b-e977ca71ddd7" name="Changes" comment="" />
-      <created>1749030687075</created>
+      <changelist id="9c714444-3f1f-4214-a44e-3c3931067975" name="Changes" comment="" />
+      <created>1749646813639</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1749030687075</updated>
-      <workItem from="1749030690065" duration="236000" />
+      <updated>1749646813639</updated>
+      <workItem from="1749646816827" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/angular.ssr/node_modules/piscina/test/fixtures/notify-then-sleep-or.js" />
+        <option value="$PROJECT_DIR$/angular.ssr/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
-  <component name="VcsManagerConfiguration">
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
 </project>
