@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import {inject, Injectable} from '@angular/core';
 import { Observable } from 'rxjs';
 import { House } from '../types/house';
 
@@ -7,13 +7,17 @@ import { House } from '../types/house';
   providedIn: 'root',
 })
 export class HouseService {
-  constructor(private http: HttpClient) {}
+  public readonly http = inject(HttpClient);
 
   getHouses(): Observable<House[]> {
     return this.http.get<House[]>('api/houses');
   }
 
-  getHouse(id: number): Observable<House> {
+  getHouse(id: number) {
     return this.http.get<House>(`api/houses/${id}`);
+  }
+
+  postHouse(house: House) {
+    return this.http.post('api/houses', house);
   }
 }

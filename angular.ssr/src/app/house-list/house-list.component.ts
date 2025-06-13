@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import {Component, effect, inject, signal} from '@angular/core';
 import { Router } from '@angular/router';
 
 import {House} from '../types/house';
 import {HouseService} from '../Services/house.service';
+import {AuthService} from '../Services/auth.service';
 
 @Component({
   selector: 'app-house-list',
@@ -12,13 +13,19 @@ import {HouseService} from '../Services/house.service';
   styleUrl: './house-list.component.css',
 })
 export class HouseListComponent {
-  houses: House[] = [];
+  public readonly houses = signal<House[]>([]);
+  public readonly houseService = inject(HouseService);
+  public readonly auth = inject(AuthService);
+  public readonly router = inject(Router);
 
-  constructor(private houseService: HouseService, private router: Router) {}
+  public authenticated = this.auth.isAuthenticated;
+  public anonymous = this.auth.isAnonymous;
 
-  ngOnInit(): void {
-    this.houseService.getHouses().subscribe((h) => (this.houses = h));
-  }
+  private fetchHousesEffect = effect(() => {
+    if (this.authenticated()) {
+      this.houseService.getHouses().subscribe((h) => (this.houses.set(h)));
+    }
+  });
 
   navigateToHouse(id: number) {
     this.router.navigate([`/house/${id}`]);
@@ -28,11 +35,12 @@ export class HouseListComponent {
     const newHouse: House = {
       id: 3,
       address: '32 Valley Way, New York',
-      description: '',
       country: 'USA',
-      price: 1000000,
+      description: '',
       photo: '',
+      price: 1000000,
     };
-    this.houses.push(newHouse);
+    this.houses.set([...this.houses(), newHouse]);
+    this.houseService.postHouse(newHouse);
   }
 }

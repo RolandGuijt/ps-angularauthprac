@@ -34,7 +34,7 @@ export class AuthService {
   });
 
 
-  public getSession(ignoreCache: boolean = false): Observable<Session> {
+  public getSession(ignoreCache = false): Observable<Session> {
     if (!this.session$ || ignoreCache) {
       this.session$ = this.http.get<Session>('bff/user').pipe(
         catchError(err => of(ANONYMOUS)),

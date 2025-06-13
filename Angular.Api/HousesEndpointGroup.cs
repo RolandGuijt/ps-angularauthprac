@@ -69,7 +69,7 @@ public static class HousesEndpointGroup
         group.MapGet("/", () => Data);
         group.MapGet("/{id}", (int id) =>
         {
-            var item = Data.FirstOrDefault(x => x.Id == id);
+            return Data.FirstOrDefault(x => x.Id == id);
         });
 
         // POST

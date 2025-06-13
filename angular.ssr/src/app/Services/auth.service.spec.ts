@@ -1,5 +1,5 @@
 import { TestBed, fakeAsync, flush } from '@angular/core/testing';
-import { AuthService, Claim, Session } from './auth.service';
+import { AuthService, Session } from './auth.service';
 import {
   HttpTestingController,
   provideHttpClientTesting,
