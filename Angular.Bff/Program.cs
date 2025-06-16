@@ -1,18 +1,22 @@
 // Copyright (c) Duende Software. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
+using Angular.Api;
 using Duende.Bff.Yarp;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddRazorPages();
 builder.Services.AddBff()
     .AddRemoteApis();
 
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = "cookie";
-    options.DefaultChallengeScheme = "oidc";
-    options.DefaultSignOutScheme = "oidc";
+    // Comment the next 2 lines in to use OpenID Connect
+    // Comment out to use BFF cookies only
+    // options.DefaultChallengeScheme = "oidc";
+    // options.DefaultSignOutScheme = "oidc";
 }).AddCookie("cookie", options =>
 {
     options.Cookie.Name = "__Host-bff";
@@ -46,10 +50,22 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
+app.UseStaticFiles();
 app.UseBff();
 app.MapBffManagementEndpoints();
-app.MapRemoteBffApiEndpoint("/api", "https://localhost:7001")
-    .RequireAccessToken();
+
+// Comment this in to use API endpoints internal to the BFF
+app.MapGroup("/api/houses")
+    .HousesGroup()
+    .RequireAuthorization()
+    .AsBffApiEndpoint();
+
+app.MapRazorPages();
+
+//Comment this in to use API endpoints external to the BFF
+//This can only be used with OpenID Connect enabled above (access token needed)
+// app.MapRemoteBffApiEndpoint("/api", "https://localhost:7001")
+//     .RequireAccessToken();
 
 app.MapFallbackToFile("/index.html");
 

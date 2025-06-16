@@ -32,8 +32,10 @@ export class HouseListComponent {
   }
 
   addHouse() {
+    const maxId = Math.max(...this.houses().map(house => house.id), 0);
+
     const newHouse: House = {
-      id: 3,
+      id: maxId + 1,
       address: '32 Valley Way, New York',
       country: 'USA',
       description: '',

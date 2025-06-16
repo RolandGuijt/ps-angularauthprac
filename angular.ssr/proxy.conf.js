@@ -9,6 +9,10 @@ const PROXY_CONFIG = [
       // BFF Management Routes
       "/bff",
 
+      // For local (non OIDC) logins
+      "/Account",
+      "/lib/bootstrap",
+
       // OIDC Handler Routes
       "/signin-oidc",
       "/signout-callback-oidc",

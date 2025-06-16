@@ -9,28 +9,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c714444-3f1f-4214-a44e-3c3931067975" name="Changes" comment="Upgrade to Angular 20">
-      <change afterPath="$PROJECT_DIR$/angular.ssr/src/app/house-detail/house-detail.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular.ssr/src/app/house-detail/house-detail.component.ts" afterDir="false" />
+    <list default="true" id="9c714444-3f1f-4214-a44e-3c3931067975" name="Changes" comment="Fix logo size">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Angular/.idea/shelf/Uncommitted_changes_before_Update_at_11_06_2025_11_08_am_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Angular/.idea/shelf/Uncommitted_changes_before_Update_at_11_06_2025_11_08_am__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/HousesEndpointGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/Pages/Account/Login.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/Pages/Account/Login.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/Pages/Shared/_ValidationSummary.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/Pages/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular.Bff/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular.ssr/eslint.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Angular/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Angular/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular.Api/HousesEndpointGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.Api/HousesEndpointGroup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/Services/auth.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/Services/auth.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/Services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/Services/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/Services/house.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/Services/house.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.Bff/Angular.Bff.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.Bff/Angular.Bff.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular.Bff/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Angular.Bff/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/proxy.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/proxy.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/app.routes.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/app.routes.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/house-list/house-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/house-list/house-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/house-detail/house-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/house-detail/house-detail.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/house-list/house-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/house-list/house-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/house/house.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/house-detail/house-detail.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/house/house.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/house/house.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/house-detail/house-detail.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/house/house.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.ssr/src/app/nav-menu/nav-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular.ssr/src/app/nav-menu/nav-menu.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +191,15 @@
       <workItem from="1749807237422" duration="212000" />
       <workItem from="1749807480594" duration="1918000" />
       <workItem from="1749815057767" duration="46000" />
-      <workItem from="1749815148411" duration="2205000" />
+      <workItem from="1749815148411" duration="2640000" />
+      <workItem from="1749985401696" duration="1727000" />
+      <workItem from="1749991762589" duration="1793000" />
+      <workItem from="1749993597722" duration="277000" />
+      <workItem from="1749993907324" duration="444000" />
+      <workItem from="1749994383585" duration="792000" />
+      <workItem from="1750064760806" duration="1218000" />
+      <workItem from="1750066046237" duration="416000" />
+      <workItem from="1750066773321" duration="848000" />
     </task>
     <task id="LOCAL-00001" summary="Proxy fix">
       <option name="closed" value="true" />
@@ -191,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749648801104</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated components">
+      <option name="closed" value="true" />
+      <created>1749817703481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749817703481</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix logo size">
+      <option name="closed" value="true" />
+      <created>1749985869239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749985869239</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +251,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Proxy fix" />
     <MESSAGE value="Upgrade to Angular 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgrade to Angular 20" />
+    <MESSAGE value="Updated components" />
+    <MESSAGE value="Fix logo size" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix logo size" />
   </component>
 </project>
