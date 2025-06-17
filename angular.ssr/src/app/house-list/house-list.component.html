@@ -10,15 +10,22 @@
         <th>Asking Price</th>
       </tr>
     </thead>
+    <tbody>
     @for (house of houses(); track house.id) {
-      <tbody>
+
         <tr (click) = navigateToHouse(house.id)>
           <td>{{ house.address }}</td>
           <td>{{ house.country }}</td>
           <td>{{ house.price }}</td>
         </tr>
-      </tbody>
+    } @empty {
+      <tr>
+        <td colspan="3">Login to show houses</td>
+      </tr>
     }
+    </tbody>
   </table>
-  <button class="btn btn-primary" (click)="addHouse()">Add</button>
+  @if (authenticated()) {
+    <button class="btn btn-primary" (click)="addHouse()">Add</button>
+  }
 </div>

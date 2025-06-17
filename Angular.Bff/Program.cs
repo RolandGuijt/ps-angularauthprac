@@ -3,6 +3,7 @@
 
 using Angular.Api;
 using Duende.Bff.Yarp;
+using Microsoft.IdentityModel.JsonWebTokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
