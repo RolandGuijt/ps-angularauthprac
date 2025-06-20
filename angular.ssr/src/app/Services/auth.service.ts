@@ -30,7 +30,7 @@ export class AuthService {
   });
   public logoutUrl = computed(() => {
     const session = this.session();
-    return session ? session.find(c => c.type === 'bff:logout_url')?.value || "/bff/logout" : null;
+    return session ? session.find(c => c.type === 'bff:logout_url')?.value || null : null;
   });
 
 
