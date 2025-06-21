@@ -30,8 +30,8 @@ public class Login : PageModel
         {
             var claims = new[]
             {
-                new Claim(ClaimTypes.Name, "Bob"),
-                new Claim(ClaimTypes.NameIdentifier, "1")
+                new Claim("name", "Bob"),
+                new Claim("sub", "1")
             };
                 
             var identity = new ClaimsIdentity(claims, "pwd", 

@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import {AuthService} from '../Services/auth.service';
 
@@ -14,14 +14,4 @@ export class NavMenuComponent {
   public authenticated = this.auth.isAuthenticated;
   public anonymous = this.auth.isAnonymous;
   public logoutUrl = this.auth.logoutUrl;
-
-  isExpanded = false;
-
-  collapse() {
-    this.isExpanded = false;
-  }
-
-  toggle() {
-    this.isExpanded = !this.isExpanded;
-  }
 }

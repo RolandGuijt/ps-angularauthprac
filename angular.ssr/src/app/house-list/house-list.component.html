@@ -29,3 +29,9 @@
     <button class="btn btn-primary" (click)="addHouse()">Add</button>
   }
 </div>
+
+@if (error()) {
+  <div class="error-message">
+    {{ error() }}
+  </div>
+}

@@ -7,23 +7,25 @@ import {AuthService} from '../Services/auth.service';
 
 @Component({
   selector: 'app-house-list',
-  standalone: true,
   imports: [],
   templateUrl: './house-list.component.html',
-  styleUrl: './house-list.component.css',
 })
 export class HouseListComponent {
-  public readonly houses = signal<House[]>([]);
   public readonly houseService = inject(HouseService);
   public readonly auth = inject(AuthService);
   public readonly router = inject(Router);
 
+  houses = signal<House[]>([]);
+  error = signal<string>('');
+
   public authenticated = this.auth.isAuthenticated;
-  public anonymous = this.auth.isAnonymous;
 
   private fetchHousesEffect = effect(() => {
     if (this.authenticated()) {
-      this.houseService.getHouses().subscribe((h) => (this.houses.set(h)));
+      this.houseService.getHouses().subscribe({
+        next: (h) => (this.houses.set(h)),
+        error: () => this.error.set('Failed to load house details')
+      })
     }
   });
 
