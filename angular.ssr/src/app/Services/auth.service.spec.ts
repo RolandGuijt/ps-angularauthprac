@@ -91,7 +91,7 @@ describe('AuthService', () => {
     expect(result1).toEqual(mockSession1);
 
     let result2: Session|undefined;
-    service.getSession(true).subscribe(s => result2 = s);
+    service.getSession().subscribe(s => result2 = s);
     const req2 = httpTestingController.expectOne('bff/user');
     req2.flush(mockSession2);
     flush();

@@ -22,8 +22,10 @@ export class AuthService {
     { initialValue: ANONYMOUS }
   );
   // Derived signals using computed that automatically update.
-  public isAuthenticated = computed(() => this.session() !== null);
-  public isAnonymous = computed(() => this.session() === null);
+  public isAuthenticated = computed(() =>
+    this.session() !== null);
+  public isAnonymous = computed(() =>
+    this.session() === null);
   public username = computed(() => {
     const session = this.session();
     return session ? session.find(c => c.type === 'name')?.value || null : null;
@@ -34,8 +36,8 @@ export class AuthService {
   });
 
 
-  public getSession(ignoreCache = false): Observable<Session> {
-    if (!this.session$ || ignoreCache) {
+  public getSession(): Observable<Session> {
+    if (!this.session$) {
       this.session$ = this.http.get<Session>('bff/user').pipe(
         catchError(err => of(ANONYMOUS)),
         shareReplay(CACHE_SIZE)

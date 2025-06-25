@@ -6,8 +6,8 @@ builder.Services.AddAuthentication("token")
     .AddJwtBearer("token", options =>
     {
         options.Authority = "https://demo.duendesoftware.com";
-        options.Audience = "api";
-
+        
+        options.TokenValidationParameters.ValidateAudience = false;
         options.MapInboundClaims = false;
     });
 

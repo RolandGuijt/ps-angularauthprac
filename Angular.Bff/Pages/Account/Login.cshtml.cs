@@ -9,14 +9,10 @@ namespace Angular.Bff.Pages.Account;
 [AllowAnonymous]
 public class Login : PageModel
 {
-    private readonly IAuthenticationSchemeProvider _schemeProvider;
-        
-    [BindProperty]
-    public string Username { get; set; }
-    [BindProperty]
-    public string Password { get; set; }
-    
-        
+    [BindProperty] public string Username { get; set; } = "";
+    [BindProperty] public string Password { get; set; } = "";
+
+
     public IActionResult OnGet(string returnUrl)
     {
         return Page();
