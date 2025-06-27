@@ -25,7 +25,7 @@
     }
     </tbody>
   </table>
-  @if (authenticated()) {
+  @if (authenticated() && canAdd()) {
     <button class="btn btn-primary" (click)="addHouse()">Add</button>
   }
 </div>

@@ -7,7 +7,7 @@ builder.Services.AddAuthentication("token")
     {
         options.Authority = "https://demo.duendesoftware.com";
         
-        options.TokenValidationParameters.ValidateAudience = false;
+        options.TokenValidationParameters.ValidateAudience = false; 
         options.MapInboundClaims = false;
     });
 

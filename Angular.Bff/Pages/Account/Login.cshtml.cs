@@ -27,7 +27,8 @@ public class Login : PageModel
             var claims = new[]
             {
                 new Claim("name", "Bob"),
-                new Claim("sub", "1")
+                new Claim("sub", "1"),
+                new Claim("role", "admin")
             };
                 
             var identity = new ClaimsIdentity(claims, "pwd", 

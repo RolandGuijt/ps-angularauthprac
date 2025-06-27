@@ -30,6 +30,16 @@ export class AuthService {
     const session = this.session();
     return session ? session.find(c => c.type === 'name')?.value || null : null;
   });
+  private role = computed(() => {
+    const session = this.session();
+    return session ? session.find(c => c.type === 'role')?.value || null : null;
+  });
+  public canAdd = computed(() => {
+    return this.role() == "admin";
+  });
+  public canSeeHouseDetails = computed(() => {
+    return this.role() == "broker";
+  });
   public logoutUrl = computed(() => {
     const session = this.session();
     return session ? session.find(c => c.type === 'bff:logout_url')?.value || null : null;

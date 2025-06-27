@@ -19,6 +19,7 @@ export class HouseListComponent {
   error = signal<string>('');
 
   public authenticated = this.auth.isAuthenticated;
+  public canAdd = this.auth.canAdd;
 
   private fetchHousesEffect = effect(() => {
     if (this.authenticated()) {
